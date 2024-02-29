@@ -12,7 +12,7 @@ st.sidebar.header('User Input Parameters')
 
 def user_input_features():
     age= st.sidebar.slider('age', 0.7, 297.0, 100.0)
-    Bmi = st.sidebar.slider('bmi', 0, 50.0, 15.0)
+    bmi = st.sidebar.slider('bmi', 0, 50.0, 15.0)
     children = st.sidebar.slider('children', 0.3, 114.0, 20.0)
     data = {'age': age,
             'bmi': bmi,
